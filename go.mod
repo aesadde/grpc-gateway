@@ -16,6 +16,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 )
 
+replace github.com/grpc-ecosystem/grpc-gateway/v2 => github.com/aesadde/grpc-gateway/v2 v2.10.4-0.20220606165617-84c2486b8d78
+
 require (
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
 	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
